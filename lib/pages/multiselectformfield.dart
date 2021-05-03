@@ -53,7 +53,7 @@ class _MultiselectExampleState extends State<MultiselectExample> {
                   dialogShapeBorder: RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(12.0))),
                   title: Text(
-                    "My workouts",
+                    "My workoutsss",
                     style: TextStyle(fontSize: 16),
                   ),
                   validator: (value) {
@@ -91,6 +91,39 @@ class _MultiselectExampleState extends State<MultiselectExample> {
                       "display": "Football Practice",
                       "value": "Football Practice",
                     },
+                     {
+                      "display": "aaaa",
+                      "value": "aaaa",
+                    },
+                    {
+                      "display": "aaaav",
+                      "value": "aaaav",
+                    },
+                    {
+                      "display": "aasfa",
+                      "value": "aaaaasadsda",
+
+                    },
+                    {
+                      "display": "aaa212a",
+                      "value": "aaa21a",
+                    },
+                    {
+                      "display": "aaa12121a",
+                      "value": "aa11111aa",
+                    },
+                    {
+                      "display": "aaaaqqq",
+                      "value": "qwqwqwqaaaa",
+                    },
+                    {
+                      "display": "aaqwqwrggaa",
+                      "value": "aaasadfaasaa",
+                    },
+                    {
+                      "display": "qqqaaaa",
+                      "value": "aaaa1111",
+                    },
                   ],
                   textField: 'display',
                   valueField: 'value',
@@ -108,13 +141,13 @@ class _MultiselectExampleState extends State<MultiselectExample> {
               ),
               
               Container(
-                padding: EdgeInsets.all(16),
+              //  padding: EdgeInsets.all(16),  
                 child: Text(_myActivitiesResult),
               ),
               Container(
-                padding: EdgeInsets.all(8),
+               // padding: EdgeInsets.all(8),
                 child: ElevatedButton(
-                  child: Text('Save'),
+                  child: Text('Salvar'),
                   onPressed: _saveForm,
                 ),
               ),

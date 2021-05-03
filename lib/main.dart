@@ -1,4 +1,5 @@
 import 'package:example_widgets/pages/checkboxListile.dart';
+import 'package:example_widgets/pages/multiselectflutter.dart';
 import 'package:example_widgets/pages/multiselectformfield.dart';
 import 'package:example_widgets/pages/toast.dart';
 import 'package:flutter/material.dart';
@@ -96,6 +97,19 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
 
           ),
+          RaisedButton(
+            child: Text("Multiselect 2"),
+            onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            //este navigator es para la ruta//
+                            builder: (context) =>Multi()),
+                      );
+                    },
+
+          ),
+
           
           
         ],
